@@ -72,7 +72,7 @@ header#main-header div.side input {
     border-radius: 16px;
     color: #667581;
     font-size: 12px;
-    background: #F5F8FA url('/layout-Twitter/imagens/search.svg') no-repeat 190px center;
+    background: #F5F8FA url('/imagens/search.svg') no-repeat 190px center;
 }
 
 header#main-header div.side img {
@@ -185,4 +185,105 @@ div.bar .content .actions button {
 
     margin-right: 20px;
     background: #FFF;
+}
+
+div.wrapper-content {
+    display: flex;
+}
+
+div.wrapper-content aside.profile {
+    width: 260px;
+}
+
+div.wrapper-content aside.profile img.avatar {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    margin-top: -130px;
+}
+
+div.wrapper-content aside.profile h1 {
+    font-size: 21px;
+    color: #1F2226;
+    margin-top: 10px;
+}
+
+div.wrapper-content aside.profile span {
+    font-size: 14px;
+    color: #53626C;
+}
+
+div.wrapper-content aside.profile p {
+    font-size: 14px;
+    color: #1F2226;
+    margin-top: 15px;
+}
+
+div.wrapper-content aside.profile ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+div.wrapper-content aside.profile ul.dados li {
+    font-size: 14px;
+    color: #657786;
+
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+div.wrapper-content aside.profile ul.dados li:first-child {
+    margin: 0;
+}
+
+div.wrapper-content aside.profile ul.dados li img {
+    margin-right: 10px;
+}
+
+div.wrapper-content aside.profile .widgets {
+    margin-top: 20px;
+}
+
+div.wrapper-content aside.profile .widgets strong{
+    font-weight: normal;
+    color: #3BB9E3;
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+}
+
+div.wrapper-content aside.profile .widgets strong img{
+    margin-right: 5px;
+}
+
+div.wrapper-content aside.profile .followers ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.wrapper-content aside.profile .followers ul li {
+    width: 45px;
+    height: 45px;
+    background: #D0D5D9;
+    border-radius: 50%;
+    flex: 1 0 auto;
+    margin: 0 5px 5px 0;   
+}
+
+div.wrapper-content aside.profile .imagens ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.wrapper-content aside.profile .imagens ul li {
+    width: 80px;
+    height: 80px;
+    background: #D0D5D9;
+    border-radius: 8px;
+    flex: 1 0 auto;
+    margin: 0 5px 5px 0;   
 }
